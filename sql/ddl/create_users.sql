@@ -1,0 +1,1 @@
+create table users(id int not null,name varchar(1024) null,phone varchar(50) null,added_at timestamp null,removed_at timestamp null,gmail varchar(1024) null,is_active boolean null,primary key(id));

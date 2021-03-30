@@ -1,0 +1,1 @@
+create table vendors(id int not null,type int not null,added_at timestamp null,removed_at timestamp null,is_active boolean null,is_platform_owner boolean null,primary key(id));

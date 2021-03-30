@@ -1,0 +1,1 @@
+create table orders(id int not null,status int null,amt float null,placed_at timestamp null,cancelled_at timestamp null,returned_at timestamp null,failed_at timestamp null,vendor_id int,user_id int, primary key(id), FOREIGN KEY (user_id) REFERENCES Users(id),FOREIGN KEY (vendor_id) REFERENCES vendors(id));

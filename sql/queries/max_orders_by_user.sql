@@ -1,0 +1,1 @@
+select users.id as uid,users.name,users.gmail,sum(orders.amt) total_order from orders inner join users on orders.user_id=users.id inner join vendors on orders.vendor_id=vendors.id where orders.status=0 and vendors.is_active=1 and placed_at >= DATE_SUB(NOW(),INTERVAL 1 YEAR) group by name order by users.added_at
