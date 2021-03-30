@@ -1,0 +1,44 @@
+#Inset Data to Users table
+insert into users values(1,'Ananth','9887878767','2017-12-28 10:00:00',null,'Ananth101@gmail.com',false);
+insert into users values(2,'Kiran','5887878767','2016-12-28 10:00:00',null,'Kiran101@gmail.com',false);
+insert into users values(3,'Joe','7587878767','2014-12-28 10:00:00',null,'Joe101@gmail.com',false);
+insert into users values(4,'Thomas','3887878767','2013-12-28 10:00:00',null,'Thomas101@gmail.com',false);
+insert into users values(5,'Peter','7857878767','2020-12-28 10:00:00',null,'Peter101@gmail.com',false);
+insert into users values(6,'Benjemin','7287878767','2000-12-28 10:00:00',null,'Benjemin101@gmail.com',false);
+insert into users values(7,'Sukesh','7885878767','2011-12-28 10:00:00',null,'Sukesh101@gmail.com',false);
+insert into users values(8,'Dan','7887875767','2011-12-28 10:00:00',null,'Dan101@gmail.com',false);
+insert into users values(9,'John','7787878767','2012-12-28 10:00:00',null,'John101@gmail.com',false);
+
+#Inset Data to vendors table
+insert into vendors values(100,500,'2016-12-28 10:00:00',null,true,false);
+insert into vendors values(101,501,'2017-12-28 10:00:00',null,true,false);
+insert into vendors values(102,501,'2012-12-28 10:00:00',null,true,false);
+insert into vendors values(103,502,'1998-12-28 10:00:00',null,true,false);
+insert into vendors values(104,502,'2004-12-28 10:00:00',null,true,false);
+insert into vendors values(105,510,'2003-12-28 10:00:00',null,false,false);
+insert into vendors values(106,511,'2002-12-28 10:00:00',null,true,false);
+insert into vendors values(107,503,'2001-12-28 10:00:00',null,true,false);
+
+#Inset Data to orders table
+insert into orders values(1000,0,150,'2021-02-21 10:00:00',null,null,null,100,1);
+insert into orders values(1001,-1,1250,'2021-02-21 10:00:00','2020-02-01 11:00:00',null,null,100,2);
+insert into orders values(1002,0,350,'2021-02-20 10:00:00',null,null,null,100,3);
+insert into orders values(1003,0,450,'2021-02-18 10:00:00',null,null,null,100,4);
+insert into orders values(1004,0,550,'2021-02-17 10:00:00',null,null,null,107,5);
+insert into orders values(1005,0,650,'2021-02-16 10:00:00',null,null,null,106,6);
+insert into orders values(1006,0,750,'2021-02-15 10:00:00',null,null,null,105,7);
+insert into orders values(1007,0,850,'2021-02-14 10:00:00',null,null,null,104,8);
+insert into orders values(1008,0,950,'2021-02-13 10:00:00',null,null,null,103,9);
+insert into orders values(1009,0,1050,'2021-02-12 10:00:00',null,null,null,102,2);
+insert into orders values(1010,0,1150,'2021-02-11 10:00:00',null,null,null,101,3);
+insert into orders values(1011,0,1250,'2021-02-10 10:00:00',null,null,null,100,4);
+insert into orders values(1012,0,1350,'2021-02-09 10:00:00',null,null,null,100,5);
+insert into orders values(1013,0,1450,'2021-02-08 10:00:00',null,null,null,101,1);
+insert into orders values(1014,0,1550,'2021-02-07 10:00:00',null,null,null,102,1);
+insert into orders values(1015,-1,1650,'2021-02-21 10:00:00','2020-02-01 11:00:00,null,null,100,1);
+insert into orders values(1016,0,1750,'2021-02-06 10:00:00',null,null,null,107,6);
+insert into orders values(1017,0,1850,'2020-02-05 10:00:00',null,null,null,106,7);
+insert into orders values(1018,0,1950,'2021-01-04 10:00:00',null,null,null,105,8);
+insert into orders values(1019,0,2150,'2021-01-03 10:00:00',null,null,null,104,9);
+insert into orders values(1020,0,2150,'2021-01-01 10:00:00',null,null,null,103,1);
+insert into orders values(1021,-1,2150,'2020-02-01 10:00:00','2020-02-01 11:00:00',null,null,100,5);
