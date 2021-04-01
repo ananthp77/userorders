@@ -1,2 +1,10 @@
-select vendors.id as vid,vendors.type as vtype, sum(orders.amt) as tamt from vendors
- inner join orders on vendors.id=orders.vendor_id where orders.status=-1  group by vtype order by tamt desc limit 1;
+SELECT vendors.id      AS vid,
+       vendors.type    AS vtype,
+       Sum(orders.amt) AS tamt
+FROM   vendors
+       INNER JOIN orders
+               ON vendors.id = orders.vendor_id
+WHERE  orders.status =- 1
+GROUP  BY vtype
+ORDER  BY tamt DESC
+LIMIT  1; 
