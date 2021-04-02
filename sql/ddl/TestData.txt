@@ -35,7 +35,7 @@ insert into orders values(1011,0,1250,'2021-02-10 10:00:00',null,null,null,100,4
 insert into orders values(1012,0,1350,'2021-02-09 10:00:00',null,null,null,100,5);
 insert into orders values(1013,0,1450,'2021-02-08 10:00:00',null,null,null,101,1);
 insert into orders values(1014,0,1550,'2021-02-07 10:00:00',null,null,null,102,1);
-insert into orders values(1015,-1,1650,'2021-02-21 10:00:00','2020-02-01 11:00:00,null,null,100,1);
+insert into orders values(1015,-1,1650,'2021-02-21 10:00:00','2020-02-01 11:00:00',null,null,100,1);
 insert into orders values(1016,0,1750,'2021-02-06 10:00:00',null,null,null,107,6);
 insert into orders values(1017,0,1850,'2020-02-05 10:00:00',null,null,null,106,7);
 insert into orders values(1018,0,1950,'2021-01-04 10:00:00',null,null,null,105,8);

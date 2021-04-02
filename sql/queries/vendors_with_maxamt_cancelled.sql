@@ -5,6 +5,6 @@ FROM   vendors
        INNER JOIN orders
                ON vendors.id = orders.vendor_id
 WHERE  orders.status =- 1
-GROUP  BY vtype
+GROUP  BY vtype,vid
 ORDER  BY tamt DESC
 LIMIT  1; 
